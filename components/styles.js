@@ -16,6 +16,38 @@ export const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     alignItems: 'center',
   },
+  containerImage: {
+    backgroundColor: 'transparent', 
+    width: '80%', 
+    height: '50%', 
+    borderRadius: 20, 
+    marginBottom: 30, 
+    alignItems: 'center', 
+    justifyContent: 'center'
+  },
+  containerPhoto: {
+    flexDirection: 'row', 
+    alignItems: 'flex-end', 
+    justifyContent: 'center', 
+    width: '100%', 
+    height: '100%'
+  },
+  camera: {
+    width: '100%',
+    height: '100%',
+    borderRadius: 15
+  },
+  bgPhoto: {
+    width: '100%', 
+    height: '100%', 
+    zIndex: 0, 
+    position: 'absolute'
+  },
+  text: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: 'white',
+  },
   buttonCamera: {
     backgroundColor: 'white',
     width: '50%',
@@ -24,11 +56,6 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     marginBottom: 20,
     borderRadius: 10,
-  },
-  camera: {
-    width: '100%',
-    height: '100%',
-    borderRadius: 15
   },
   buttonContainer: {
     flex: 1,
@@ -54,32 +81,5 @@ export const styles = StyleSheet.create({
     backgroundColor: 'transparent', 
     width: '80%', 
     height: '15%'
-  },
-  containerImage: {
-    backgroundColor: 'transparent', 
-    width: '80%', 
-    height: '50%', 
-    borderRadius: 20, 
-    marginBottom: 30, 
-    alignItems: 'center', 
-    justifyContent: 'center'
-  },
-  containerPhoto: {
-    flexDirection: 'row', 
-    alignItems: 'flex-end', 
-    justifyContent: 'center', 
-    width: '100%', 
-    height: '100%'
-  },
-  bgPhoto: {
-    width: '100%', 
-    height: '100%', 
-    zIndex: 0, 
-    position: 'absolute'
-  },
-  text: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: 'white',
-  },
+  }
 })
